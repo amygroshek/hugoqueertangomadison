@@ -1,0 +1,48 @@
+title = "Queer Tango Madison"
+baseURL = "https://madisonqueertango.com"
+languageCode = "en-us"
+theme = "ananke"
+# themesDir = "../.."
+
+# MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+# Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+# googleAnalytics = ""
+enableRobotsTXT = true
+#
+# [sitemap]
+#   changefreq = "monthly"
+#   priority = 0.5
+#   filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "Queer tango lessons and events in Madison, Wisconsin"
+  facebook = ""
+  twitter = "https://twitter.com/tangoqueermsn"
+  instagram = ""
+  youtube = ""
+  github = ""
+  linkedin = ""
+  email = "contact@madisonqueertango.com"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  # background_color_class = "bg-dark-red"
+  featured_image = "/img/Tango_Club.jpg"
+  recent_posts_number = 2
+
+[[menu.main]]
+  name = "Lessons"
+  pre = "<i class='fa fa-heart'></i>"
+  weight = 1
+  identifier = "lessons"
+  url = "/lessons/"
+[[menu.main]]
+  name = "Events"
+  weight = 2
+  url = "/events/"
+[[menu.main]]
+  name = "Contact"
+  weight = 3
+  url = "/contact/"
